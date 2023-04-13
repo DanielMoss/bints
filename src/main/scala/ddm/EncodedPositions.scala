@@ -8,5 +8,5 @@ final case class EncodedPositions(raw: Int) {
     (raw & that.raw) == that.raw
 
   def overlaps(that: EncodedPositions): Boolean =
-    (raw & that.raw) > 0
+    ((raw & that.raw) > 0) || (that.raw == 0)
 }
