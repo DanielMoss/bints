@@ -1,0 +1,1 @@
+A solver for the expected value of a spin in the game of Bints - a cross between the games of  Bingo and Slots!
